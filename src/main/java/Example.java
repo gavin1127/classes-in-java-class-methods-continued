@@ -2,7 +2,9 @@
  * For this project, your job is to implement five methods as defined below.
  */
 public class Example {
-
+    public boolean not(boolean sayYes){
+        return !sayYes;
+    }
     /**
      * Create a method as described here:
      * - named "not"
@@ -13,7 +15,10 @@ public class Example {
      * method receives true for its argument, it will return false.
      */
     // todo: write not() method
-
+        int x=5;
+    public int doublePlusOne(int x){
+        return x*2+1;
+    }
     /**
      * Create a method as described:
      * - named "doublePlusOne"
@@ -25,6 +30,11 @@ public class Example {
      * returns 11.
      */
     // todo: write doublePlusOne() method
+    double X=8.1;
+    double Y=9.9;
+        public double averageTwoNumbers(double x, double y){
+            return (x+y)/2;
+        }
 
     /**
      * Create a method as described:
@@ -36,6 +46,7 @@ public class Example {
      * averaged to 9.
      */
     // todo: write averageTwoNumbers() method
+
 
     /**
      * Create a method as described:
@@ -49,6 +60,9 @@ public class Example {
      * "Hello, Tracy!".
      */
     // todo: write getGreeting() method
+    public String getGreeting(String getGreeting){
+        return "Hello, " + getGreeting + "!";
+    }
 
     /**
      * Create a method as described:
@@ -61,5 +75,9 @@ public class Example {
      * print the resulting string to the console. EG: If the String argument is
      * "Tracy", this method should print out "Hello, Tracy!".
      */
+    public void sayHello(String getGreeting){
+
+        System.out.println( "Hello, " + getGreeting + "!");
+    }
     // todo: write sayHello() method
 }
